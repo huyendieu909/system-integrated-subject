@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <!--Ràng buộc cho mã hàng-->
+  <xs:simpleType name="mahangType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="6"></xs:maxLength>
+      <xs:minLength value="1"></xs:minLength>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc cho đơn giá-->
+  <xs:simpleType name="dongiaType">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0"></xs:minInclusive>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc cho đơn vị tính-->
+  <xs:simpleType name="donviType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="gói"></xs:enumeration>
+      <xs:enumeration value="hộp"></xs:enumeration>
+      <xs:enumeration value="chiếc"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="hangType">
+    <xs:sequence>
+      <xs:element name="TenHang" type="xs:string"></xs:element>
+      <xs:element name="SoLuong" type="xs:integer"></xs:element>
+      <xs:element name="DonViTinh" type="donviType"></xs:element>
+      <xs:element name="DonGia" type="dongiaType"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="MaHang" type="mahangType" use="required"></xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="loaihangType">
+    <xs:sequence>
+      <xs:element name="Hang" type="hangType" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="MaLoai" type="xs:string"></xs:attribute>
+    <xs:attribute name="TenLoai" type="xs:string"></xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="hoadonType">
+    <xs:sequence>
+      <xs:element name="LoaiHang" type="loaihangType" maxOccurs="10"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="MaHD" type="xs:string"></xs:attribute>
+    <xs:attribute name="NgayBan" type="xs:date"></xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="HoaDonType">
+    <xs:sequence>
+      <xs:element name="HoaDon" type="mstns:hoadonType" maxOccurs="4"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DS" type="mstns:HoaDonType"></xs:element>
+</xs:schema>

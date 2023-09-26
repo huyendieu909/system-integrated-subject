@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datn>
+    <tieude>Đồ án tốt nghiệp</tieude>
+    <info>
+        <so>121</so>
+        <sv>
+            <hoten>Nguyễn Văn Bắc</hoten>
+            <lop>HTTT2-K10</lop>
+            <khoa>10</khoa>
+            <khoa>CNTT</khoa>
+        </sv>
+        <gvhd>Trần Thanh Hùng</gvhd>
+    </info>
+    <noidung>
+        <banve tenbanve="A" stt="1">
+            <khogiay>A3</khogiay>
+            <soluong>5</soluong>
+        </banve>
+        <banve tenbanve="B" stt="2">
+            <khogiay>A4</khogiay>
+            <soluong>5</soluong>
+        </banve>
+        <banve tenbanve="C" stt="3">
+            <khogiay>A1</khogiay>
+            <soluong>1</soluong>
+        </banve>
+        <banve tenbanve="D" stt="4">
+            <khogiay>A0</khogiay>
+            <soluong>1</soluong>
+        </banve>
+    </noidung>
+    <thuyetminh>abc</thuyetminh>
+    <thoigian>
+        <ngaygiao>2-9-2017</ngaygiao>
+        <ngayhoanthanh>3-9-2017</ngayhoanthanh>
+    </thoigian>
+</datn>

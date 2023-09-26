@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <!--Ràng buộc họ tên, quê quán-->
+  <xs:simpleType name="htqqType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50"></xs:maxLength>
+      <xs:minLength value="2"></xs:minLength>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc trình độ-->
+  <xs:simpleType name="trinhdoType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Đại học"></xs:enumeration>
+      <xs:enumeration value="Cao đẳng"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc giới tính-->
+  <xs:simpleType name="gioitinhType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="nam"></xs:enumeration>
+      <xs:enumeration value="nữ"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc ngày tháng năm sinh-->
+  <xs:simpleType name="ngaysinhType">
+    <xs:restriction base="xs:date">
+      <xs:minExclusive value="1995-01-01"></xs:minExclusive>
+      <xs:maxExclusive value="1998-12-31"></xs:maxExclusive>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc mã nhân viên-->
+  <xs:simpleType name="manvType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z0-9]{10}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc số điện thoại-->
+  <xs:simpleType name="sdtType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{10}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc hệ số điểm-->
+  <xs:simpleType name="hsdiemType">
+    <xs:restriction base="xs:decimal">
+      <xs:fractionDigits value="2"></xs:fractionDigits>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- Sử dụng -->
+  <xs:complexType name="nvType">
+    <xs:sequence>
+      <xs:element name="Hoten" type="htqqType"></xs:element>
+      <xs:element name="Ngaysinh" type="ngaysinhType"></xs:element>
+      <xs:element name="Gioitinh" type="gioitinhType"></xs:element>
+      <xs:element name="Quequan" type="htqqType"></xs:element>
+      <xs:element name="Sodienthoai" type="sdtType"></xs:element>
+      <xs:element name="Trinhdo" type="trinhdoType"></xs:element>
+      <xs:element name="Hesodiem" type="hsdiemType"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="Manhanvien" type="manvType" use="required"></xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="NhanvienType">
+    <xs:sequence>
+      <xs:element name="Nhanvien" type="mstns:nvType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="QLNV" type="mstns:NhanvienType"></xs:element>
+</xs:schema>
+
+
+

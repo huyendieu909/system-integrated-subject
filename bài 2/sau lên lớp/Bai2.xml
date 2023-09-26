@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DS xmlns="http://tempuri.org/Bai2.xsd">
+  <HoaDon>
+    <MaHD>HD1</MaHD>
+    <NgayBan>2015-11-09</NgayBan>
+    <LoaiHang MaLoai="A" TenLoai="Điện tử">
+      <Hang MaHang="H1">
+        <TenHang>Ti Vi </TenHang>
+        <SoLuong> 60 </SoLuong>
+        <DonViTinh>Chiếc</DonViTinh>
+        <DonGia>6000000</DonGia>
+      </Hang>
+      <Hang MaHang=”H2”>
+        <TenHang>Tủ Lạnh</TenHang>
+        <SoLuong> 80 </SoLuong>
+        <DonViTinh>Chiếc</DonViTinh>
+        <DonGia>4200000</DonGia>
+      </Hang>
+      <Hang MaHang=”H3”>
+        <TenHang>Nồi Cơm</TenHang>
+        <SoLuong> 70 </SoLuong>
+        <DonViTinh>Chiếc</DonViTinh>
+        <DonGia>200000</DonGia>
+      </Hang>
+    </LoaiHang>
+    <LoaiHang MaLoai=”B” TenLoai=”Đồ ăn”>
+      <Hang MaHang="HA1">
+        <TenHang>Mì tôm</TenHang>
+        <SoLuong> 60 </SoLuong>
+        <DonViTinh>Gói</DonViTinh>
+        <DonGia>7000</DonGia>
+      </Hang>
+      <Hang MaHang="HA2">
+        <TenHang>Phở</TenHang>
+        <SoLuong> 80 </SoLuong>
+        <DonViTinh>Gói</DonViTinh>
+        <DonGia>20000</DonGia>
+      </Hang>
+      <Hang MaHang="HA3”>
+        <TenHang>Cháo gói</TenHang>
+        <SoLuong> 70 </SoLuong>
+        <DonViTinh>Gói</DonViTinh>
+        <DonGia>12000</DonGia>
+      </Hang>
+    </LoaiHang>
+  </HoaDon>
+  
+  <HoaDon>
+    <MaHD>HD2</MaHD>
+    <NgayBan>2015-11-16</NgayBan>
+    <LoaiHang MaLoai="A" TenLoai="Điện tử">
+      <Hang MaHang="H1">
+        <TenHang>Ti Vi </TenHang>
+        <SoLuong> 50 </SoLuong>
+        <DonViTinh>Chiếc</DonViTinh>
+        <DonGia>6000000</DonGia>
+      </Hang>
+      <Hang MaHang="H2">
+        <TenHang>Tủ Lạnh</TenHang>
+        <SoLuong> 40 </SoLuong>
+        <DonViTinh>Chiếc</DonViTinh>
+        <DonGia>4200000</DonGia>
+      </Hang>
+      <Hang MaHang="H3”>
+        <TenHang>Nồi Cơm</TenHang>
+        <SoLuong> 70 </SoLuong>
+        <DonViTinh>Chiếc</DonViTinh>
+        <DonGia>200000</DonGia>
+      </Hang>
+    </LoaiHang>
+    <LoaiHang MaLoai=”B” TenLoai=”Đồ ăn”>
+      <Hang MaHang="HA1">
+        <TenHang>Mì tôm</TenHang>
+        <SoLuong> 10 </SoLuong>
+        <DonViTinh>Gói</DonViTinh>
+        <DonGia>7000</DonGia>
+      </Hang>
+      <Hang MaHang="HA2">
+        <TenHang>Phở</TenHang>
+        <SoLuong> 20 </SoLuong>
+        <DonViTinh>Gói</DonViTinh>
+        <DonGia>20000</DonGia>
+      </Hang>
+      <Hang MaHang="HA3”>"
+        <TenHang>Cháo gói</TenHang>
+        <SoLuong> 30 </SoLuong>
+        <DonViTinh>Gói</DonViTinh>
+        <DonGia>12000</DonGia>
+      </Hang>
+    </LoaiHang>
+  </HoaDon>
+</DS>
