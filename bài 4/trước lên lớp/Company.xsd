@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <!--Ràng buộc name-->
+  <xs:simpleType name="nameType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="3"></xs:minLength>
+      <xs:whiteSpace value="preserve"></xs:whiteSpace>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc userid-->
+  <xs:simpleType name="useridType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z]\w{5}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc phone-->
+  <xs:simpleType name="phoneType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc salary-->
+  <xs:simpleType name="salaryType">
+    <xs:restriction base="xs:decimal">
+      <xs:minExclusive value="1000"></xs:minExclusive>
+      <xs:maxExclusive value="2000"></xs:maxExclusive>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc address-->
+  <xs:simpleType name="addressType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ha noi"></xs:enumeration>
+      <xs:enumeration value="Hai phong"></xs:enumeration>
+      <xs:enumeration value="Quang ninh"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc id employee-->
+  <xs:simpleType name ="idType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="E[0-9][0-9]"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc gender-->
+  <xs:simpleType name="genderType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="male"></xs:enumeration>
+      <xs:enumeration value="female"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--employeeType-->
+  <xs:complexType name="empType">
+    <xs:sequence>
+      <xs:element name="name" type="nameType"></xs:element>
+      <xs:element name="userid" type="useridType"></xs:element>
+      <xs:element name="phone" type="phoneType"></xs:element>
+      <xs:element name="salary" type="salaryType"></xs:element>
+      <xs:element name="address" type="addressType"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="idType"></xs:attribute>
+    <xs:attribute name="gender" type="genderType"></xs:attribute>
+  </xs:complexType>
+  <!--employee-->
+  <xs:complexType name="employeeType">
+    <xs:sequence>
+      <xs:element name="employee" type="empType" minOccurs="10" maxOccurs="50"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <!--company-->
+  <xs:element name="company" type="employeeType"></xs:element>
+</xs:schema>

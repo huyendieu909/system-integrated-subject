@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<company xmlns="http://tempuri.org/XMLSchema.xsd">
+  <employee id="E01" gender="male">
+    <name>Dương Văn Nam</name>
+    <userid>E00001</userid>
+    <phone>098-909-8899</phone>
+    <salary>1001</salary>
+    <address>Ha noi</address>
+  </employee>
+  <employee id="E02" gender="male">
+    <name>Hoàng Quốc Việt</name>
+    <userid>E00002</userid>
+    <phone>099-909-8899</phone>
+    <salary>1011</salary>
+    <address>Hai phong</address>
+  </employee>
+  <employee id="E03" gender="male">
+    <name>Lã Huy Nam</name>
+    <userid>E00003</userid>
+    <phone>089-999-8899</phone>
+    <salary>1111</salary>
+    <address>Ha noi</address>
+  </employee>
+  <employee id="E04" gender="male">
+    <name>Hoàng Nam</name>
+    <userid>E00004</userid>
+    <phone>098-909-8899</phone>
+    <salary>1011</salary>
+    <address>Ha noi</address>
+  </employee>
+  <employee id="E05" gender="male">
+    <name>Mã Siêu Nam</name>
+    <userid>E00005</userid>
+    <phone>098-909-8899</phone>
+    <salary>1011</salary>
+    <address>Ha noi</address>
+  </employee>
+  <employee id="E06" gender="male">
+    <name>Lê Huy Nam</name>
+    <userid>E00006</userid>
+    <phone>098-909-8899</phone>
+    <salary>1011</salary>
+    <address>Ha noi</address>
+  </employee>
+  <employee id="E07" gender="male">
+    <name>Trịnh Đình Nam</name>
+    <userid>E00007</userid>
+    <phone>098-909-8899</phone>
+    <salary>1011</salary>
+    <address>Ha noi</address>
+  </employee>
+  <employee id="E08" gender="male">
+    <name>Trần Tuấn Nam</name>
+    <userid>E00008</userid>
+    <phone>098-909-8899</phone>
+    <salary>1011</salary>
+    <address>Ha noi</address>
+  </employee>
+  <employee id="E09" gender="male">
+    <name>Võ Quốc Nam</name>
+    <userid>E00009</userid>
+    <phone>098-909-8899</phone>
+    <salary>1000</salary>
+    <address>Quang ninh</address>
+  </employee>
+  <employee id="E10" gender="male">
+    <name>Ma Huy Nam</name>
+    <userid>E00010</userid>
+    <phone>098-909-8899</phone>
+    <salary>1500</salary>
+    <address>Ha noi</address>
+  </employee>
+</company>

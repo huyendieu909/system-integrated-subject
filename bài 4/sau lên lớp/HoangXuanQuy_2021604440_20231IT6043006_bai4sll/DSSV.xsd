@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<!--Ràng buộc masv-->
+	<xs:simpleType name="masvType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{8}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Ràng buộc gvcn-->
+	<xs:simpleType name="gvcnType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Trần Mai Linh"></xs:enumeration>
+			<xs:enumeration value="Đặng Thị Nhung"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Ràng buộc điểm-->
+	<xs:simpleType name="diemType">
+		<xs:restriction base="xs:double">
+			<xs:minInclusive value="0"></xs:minInclusive>
+			<xs:maxInclusive value="10"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Ràng buộc học lực, hạnh kiểm-->
+	<xs:simpleType name="hocluchanhkiemType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Trung bình"></xs:enumeration>
+			<xs:enumeration value="Khá"></xs:enumeration>
+			<xs:enumeration value="Giỏi"></xs:enumeration>
+			<xs:enumeration value="Yếu"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Sử dụng-->
+	<xs:complexType name="infoType">
+		<xs:sequence>
+			<xs:element name="hoten" type="xs:string"></xs:element>
+			<xs:element name="ngaysinh" type="xs:gYear"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DiemType">
+		<xs:sequence>
+			<xs:element name="lan1" type="diemType"></xs:element>
+			<xs:element name="lan2" type="diemType"></xs:element>
+			<xs:element name="canam" type="diemType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="monType">
+		<xs:sequence>
+			<xs:element name="Diem" type="DiemType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="tenmon" type="xs:string"></xs:attribute>
+		<xs:attribute name="stt" type="xs:int"></xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="monhocType">
+		<xs:sequence>
+			<xs:element name="mon" type="monType" minOccurs="3" maxOccurs="6"></xs:element> 
+		</xs:sequence>
+	</xs:complexType>
+  <xs:complexType name="xeploaiType">
+    <xs:sequence>
+      <xs:element name="hocluc" type="hocluchanhkiemType"></xs:element>
+      <xs:element name="hanhkiem" type="hocluchanhkiemType"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+	<xs:complexType name="svType">
+		<xs:sequence>
+			<xs:element name="info" type="infoType"></xs:element>
+			<xs:element name="monhoc" type="monhocType"></xs:element>
+      <xs:element name="xeploai" type="xeploaiType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="masv" type="masvType"></xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="lopType">
+		<xs:sequence>
+			<xs:element name="sv" type="svType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="malop" type="xs:string"></xs:attribute>
+		<xs:attribute name="gvcn" type="gvcnType"></xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="namhocType">
+		<xs:sequence>
+			<xs:element name="lop" type="lopType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="nam" type="xs:string"></xs:attribute>
+	</xs:complexType>
+  <!-->xs:element name="namhoc" type="namhocType"></xs:element-->
+	<xs:element name="kqht">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="namhoc" type="namhocType"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

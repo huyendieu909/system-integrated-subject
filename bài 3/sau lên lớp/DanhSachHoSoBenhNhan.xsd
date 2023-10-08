@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KhoaType" targetNamespace="http://tempuri.org/KhoaType.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/KhoaType.xsd"
+    xmlns:mstns="http://tempuri.org/KhoaType.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <!--Ràng buộc mã bệnh nhân-->
+  <xs:simpleType name="mabnType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="bn[0-9][0-9]"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc họ tên-->
+  <xs:simpleType name="hotenType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="2"></xs:minLength>
+      <xs:maxLength value="50"></xs:maxLength>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc địa chỉ-->
+  <xs:simpleType name="diachiType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="200"></xs:maxLength>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc số điện thoại-->
+  <xs:simpleType name="sdtType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="0\d{9}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc ngày nhập viện-->
+  <xs:simpleType name="ngaynhapvienType">
+    <xs:restriction base="xs:date">
+      <xs:minExclusive value="1900-01-01"></xs:minExclusive>
+      <xs:maxExclusive value="2023-12-31"></xs:maxExclusive>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Ràng buộc số ngày nằm viện-->
+  <xs:simpleType name="songaynamvienType">
+    <xs:restriction base="xs:int">
+      <xs:minExclusive value="1"></xs:minExclusive>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Hồ sơ bệnh nhân-->
+  <xs:complexType name="HSBNType">
+    <xs:sequence>
+      <xs:element name="hoten" type="hotenType"></xs:element>
+      <xs:element name="diachi" type="diachiType"></xs:element>
+      <xs:element name="sdt" type="sdtType"></xs:element>
+      <xs:element name="ngaynhapvien" type="ngaynhapvienType"></xs:element>
+      <xs:element name="songaynamvien" type="songaynamvienType"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="mabn" type="mabnType" use="required"></xs:attribute>
+  </xs:complexType>
+  <!--Danh sách bệnh nhân trong khoa-->
+  <xs:complexType name="KhoaType">
+    <xs:sequence> 
+      <xs:element name="HSBN" type="mstns:HSBNType"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="khoa" type="hotenType" use="required"></xs:attribute>
+    <xs:attribute name="truongkhoa" type="hotenType" use="required"></xs:attribute>
+  </xs:complexType>
+  <!--Danh sách bệnh nhân-->
+  <xs:element name="DSBN" type="mstns:KhoaType"></xs:element>
+</xs:schema>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="DanhSachHoSoBenhNhan.xslt"?>
+<!--Danh sách hồ sơ bệnh nhân-->
+<DSBN xmlns:"http://tempuri.org/KhoaType.xsd">
+  <Khoa tenkhoa="Ngoại" truongkhoa="Nguyễn Bá Hào">
+    <HSBN mabn="bn01">
+      <hoten>Dương Hải Huy</hoten>
+      <diachi>Cầu Giấy, Hà Nội</diachi>
+      <sdt>0333040400</sdt>
+      <ngaynhapvien>2022-09-19</ngaynhapvien>
+      <songaynamvien>10</songaynamvien>
+    </HSBN>
+    <HSBN mabn="bn02">
+      <tenbn>Đinh Công Hậu</tenbn>
+      <diachi>Minh Khai, Hà Nội</diachi>
+      <sdt>0999899989</sdt>
+      <ngaynhapvien>2023-09-20</ngaynhapvien>
+      <songaynamvien>11</songaynamvien>
+    </HSBN>    
+  </Khoa>
+  <Khoa tenkhoa="Nội" truongkhoa="Nguyễn Thị Linh">
+    <HSBN mabn="bn03">
+      <hoten>Đỗ Hải Quang</hoten>
+      <diachi>Cầu Giấy, Hà Nội</diachi>
+      <sdt>0919229399</sdt>
+      <ngaynhapvien>2022-09-10</ngaynhapvien>
+      <songaynamvien>9</songaynamvien>
+    </HSBN>
+    <HSBN mabn="bn04">
+      <tenbn>Dương Huy Khôi</tenbn>
+      <diachi>Sóc Sơn, Hà Nội</diachi>
+      <sdt>0343443334</sdt>
+      <ngaynhapvien>2023-09-09</ngaynhapvien>
+      <songaynamvien>14</songaynamvien>
+    </HSBN>
+  </Khoa>
+</DSBN>
