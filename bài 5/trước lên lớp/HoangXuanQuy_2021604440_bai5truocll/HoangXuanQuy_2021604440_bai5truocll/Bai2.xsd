@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:simpleType name="GioiTinhType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="Nam|Nữ"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="MaLopType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Za-z]{4}[0-9]{2}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="SinhVienType">
+    <xs:sequence>
+      <xs:element name="TenSv" type="xs:string"></xs:element>
+      <xs:element name="GioiTinh" type="GioiTinhType"></xs:element>
+      <xs:element name="NgaySinh" type="xs:string"></xs:element>
+      <xs:element name="MaLop" type="MaLopType"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="MaSv" type="xs:string"></xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="DSType">
+    <xs:sequence>
+      <xs:element name="SinhVien" type="SinhVienType"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DS" type="DSType"></xs:element>
+</xs:schema>

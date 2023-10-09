@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Bai1.xslt"?>
+<lop>
+  <lophoc>
+    <MaLop>CNTT14</MaLop>
+    <TenLop>Công nghệ thông tin 2014</TenLop>
+  </lophoc>
+  <lophoc>
+    <MaLop>TCKT14</MaLop>
+    <TenLop>Tài chính kế toán 2014</TenLop>
+  </lophoc>
+  <lophoc>
+    <MaLop>TKĐH14</MaLop>
+    <TenLop>Thiết kế đồ họa</TenLop>
+  </lophoc>
+</lop>
