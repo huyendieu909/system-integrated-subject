@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="BenhNhan.xslt"?>
+<BVDK xmlns="http://tempuri.org/XMLSchema.xsd">
+	<Khoa>
+		<TenKhoa>Ngoại</TenKhoa>
+		<Phong>302</Phong>
+		<BenhNhan MasoBN="BN01">
+			<HoTen>Nguyễn Tuấn Anh</HoTen>
+			<GioiTinh>Nam</GioiTinh>
+			<NgayNhapVien>2017-01-01</NgayNhapVien>
+			<NgayDieuTri>2</NgayDieuTri>
+		</BenhNhan>
+		<BenhNhan MasoBN="BN02">
+			<HoTen>Nguyễn Anh Tuấn</HoTen>
+			<GioiTinh>Nam</GioiTinh>
+			<NgayNhapVien>2017-01-02</NgayNhapVien>
+			<NgayDieuTri>4</NgayDieuTri>
+		</BenhNhan>
+	</Khoa>
+	<Khoa>
+		<TenKhoa>Ngoại</TenKhoa>
+		<Phong>303</Phong>
+		<BenhNhan MasoBN="BN03">
+			<HoTen>Nguyễn Phan Anh</HoTen>
+			<GioiTinh>Nam</GioiTinh>
+			<NgayNhapVien>2017-01-03</NgayNhapVien>
+			<NgayDieuTri>20</NgayDieuTri>
+		</BenhNhan>
+		<BenhNhan MasoBN="BN04">
+			<HoTen>Nguyễn Mạnh Anh</HoTen>
+			<GioiTinh>Nam</GioiTinh>
+			<NgayNhapVien>2017-01-05</NgayNhapVien>
+			<NgayDieuTri>7</NgayDieuTri>
+		</BenhNhan>
+	</Khoa>
+</BVDK>

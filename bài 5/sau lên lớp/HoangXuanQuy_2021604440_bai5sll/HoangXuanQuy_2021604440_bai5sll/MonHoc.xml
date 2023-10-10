@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="MonHoc.xslt"?>
+<DS xmlns="http://tempuri.org/XMLSchema.xsd">
+  <MonHoc MaMh="CSDL">
+    <TenMh>Cơ sở dữ liệu</TenMh>
+    <SoGio>30</SoGio>
+  </MonHoc>
+  <MonHoc MaMh="MCB">
+    <TenMh>Mạng căn bản</TenMh>
+    <SoGio>39</SoGio>
+  </MonHoc>
+  <MonHoc MaMh="THDC">
+    <TenMh>Tin học đại cương</TenMh>
+    <SoGio>45</SoGio>
+  </MonHoc>
+  <MonHoc MaMh="THVP">
+    <TenMh>Tin học văn phòng</TenMh>
+    <SoGio>45</SoGio>
+  </MonHoc>
+  <MonHoc MaMh="XLA">
+    <TenMh>Xử lý ảnh</TenMh>
+    <SoGio>45</SoGio>
+  </MonHoc>
+</DS>

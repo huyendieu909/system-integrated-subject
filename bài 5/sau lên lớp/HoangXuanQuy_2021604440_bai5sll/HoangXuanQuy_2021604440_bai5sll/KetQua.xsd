@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:simpleType name="DiemThiType">
+    <xs:restriction base="xs:double">
+      <xs:minInclusive value="0"></xs:minInclusive>
+      <xs:maxInclusive value="10"></xs:maxInclusive>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Diem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="MaSv" type="xs:string"></xs:element>
+        <xs:element name="MaMh" type="xs:string"></xs:element>
+        <xs:element name="DiemThi" type="DiemThiType"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KetQua">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Diem" minOccurs="0" maxOccurs="unbounded"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

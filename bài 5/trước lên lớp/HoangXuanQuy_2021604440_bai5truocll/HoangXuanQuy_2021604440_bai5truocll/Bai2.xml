@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Bai2.xslt"?>
 <DS xmlns="http://tempuri.org/XMLSchema.xsd">
   <SinhVien MaSv="sv01">
     <TenSv>Phan Tuấn Cường</TenSv>

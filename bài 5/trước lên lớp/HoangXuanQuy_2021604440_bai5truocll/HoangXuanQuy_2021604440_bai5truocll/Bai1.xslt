@@ -10,10 +10,10 @@
           <title>Bai1</title>
         </head>
         <body>
-          <table border="1">
+          <table border="1" cellpadding="10px">
             <tr>
-              <th>MaLop</th>
-              <th>TenLop</th>
+              <th width="150px" align="left">MaLop</th>
+              <th width="500px" align="left">TenLop</th>
             </tr>
             <xsl:for-each select="lop/lophoc">
               <tr>
