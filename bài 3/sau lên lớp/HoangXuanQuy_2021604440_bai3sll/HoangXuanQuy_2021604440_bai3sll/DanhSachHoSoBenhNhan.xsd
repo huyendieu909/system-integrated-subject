@@ -44,24 +44,34 @@
     </xs:restriction>
   </xs:simpleType>
   <!--Hồ sơ bệnh nhân-->
-  <xs:complexType name="HSBNType">
-    <xs:sequence>
-      <xs:element name="hoten" type="hotenType"></xs:element>
-      <xs:element name="diachi" type="diachiType"></xs:element>
-      <xs:element name="sdt" type="sdtType"></xs:element>
-      <xs:element name="ngaynhapvien" type="ngaynhapvienType"></xs:element>
-      <xs:element name="songaynamvien" type="songaynamvienType"></xs:element>
-    </xs:sequence>
-    <xs:attribute name="mabn" type="mabnType" use="required"></xs:attribute>
-  </xs:complexType>
+  <xs:element name="HSBN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="hoten" type="hotenType"></xs:element>
+        <xs:element name="diachi" type="diachiType"></xs:element>
+        <xs:element name="sdt" type="sdtType"></xs:element>
+        <xs:element name="ngaynhapvien" type="ngaynhapvienType"></xs:element>
+        <xs:element name="songaynamvien" type="songaynamvienType"></xs:element>
+      </xs:sequence>
+      <xs:attribute name="mabn" type="mabnType" use="required"></xs:attribute>
+    </xs:complexType>
+  </xs:element>
   <!--Danh sách bệnh nhân trong khoa-->
-  <xs:complexType name="KhoaType">
-    <xs:sequence> 
-      <xs:element name="HSBN" type="mstns:HSBNType"></xs:element>
-    </xs:sequence>
-    <xs:attribute name="khoa" type="hotenType" use="required"></xs:attribute>
-    <xs:attribute name="truongkhoa" type="hotenType" use="required"></xs:attribute>
-  </xs:complexType>
+  <xs:element name="Khoa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="HSBN" minOccurs="0" maxOccurs="unbounded"></xs:element>
+      </xs:sequence>
+      <xs:attribute name="tenkhoa" type="hotenType" use="required"></xs:attribute>
+      <xs:attribute name="truongkhoa" type="hotenType" use="required"></xs:attribute>
+    </xs:complexType>
+  </xs:element>
   <!--Danh sách bệnh nhân-->
-  <xs:element name="DSBN" type="mstns:KhoaType"></xs:element>
+  <xs:element name="DSBN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Khoa" minOccurs="0" maxOccurs="unbounded"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>

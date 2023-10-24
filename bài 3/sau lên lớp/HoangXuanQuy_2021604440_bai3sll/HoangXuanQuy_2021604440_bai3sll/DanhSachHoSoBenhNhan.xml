@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="DanhSachHoSoBenhNhan.xslt"?>
 <!--Danh sách hồ sơ bệnh nhân-->
-<DSBN xmlns:"http://tempuri.org/KhoaType.xsd">
+<DSBN xmlns="http://tempuri.org/KhoaType.xsd">
   <Khoa tenkhoa="Ngoại" truongkhoa="Nguyễn Bá Hào">
     <HSBN mabn="bn01">
       <hoten>Dương Hải Huy</hoten>
@@ -11,7 +11,7 @@
       <songaynamvien>10</songaynamvien>
     </HSBN>
     <HSBN mabn="bn02">
-      <tenbn>Đinh Công Hậu</tenbn>
+      <hoten>Đinh Công Hậu</hoten>
       <diachi>Minh Khai, Hà Nội</diachi>
       <sdt>0999899989</sdt>
       <ngaynhapvien>2023-09-20</ngaynhapvien>
@@ -27,7 +27,7 @@
       <songaynamvien>9</songaynamvien>
     </HSBN>
     <HSBN mabn="bn04">
-      <tenbn>Dương Huy Khôi</tenbn>
+      <hoten>Dương Huy Khôi</hoten>
       <diachi>Sóc Sơn, Hà Nội</diachi>
       <sdt>0343443334</sdt>
       <ngaynhapvien>2023-09-09</ngaynhapvien>

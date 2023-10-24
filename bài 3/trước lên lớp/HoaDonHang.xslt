@@ -22,7 +22,7 @@
             </tr>
             <tr>
               <td>
-                Loại hàng:<xsl:value-of select="DS/HoaDon/LoaiHang"/>
+                Loại hàng: <xsl:value-of select="DS/HoaDon/LoaiHang/@TenLoai"/>
               </td>
             </tr>
           </table>
@@ -37,19 +37,19 @@
             <xsl:for-each select="DS/HoaDon/LoaiHang/Hang">
               <tr>
                 <td>
-                  <xsl:value-of select="@MaLoai"/>
+                  <xsl:value-of select="@MaHang"/>
                 </td>
                 <td>
-                  <xsl:value-of select="@TenHang"/>
+                  <xsl:value-of select="TenHang"/>
                 </td>
                 <td>
-                  <xsl:value-of select="@SoLuong"/>
+                  <xsl:value-of select="SoLuong"/>
                 </td>
                 <td>
-                  <xsl:value-of select="@DonGia"/>
+                  <xsl:value-of select="DonGia"/>
                 </td>
                 <td>
-                  <xsl:value-of select="DonGia*Soluong"/>
+                  <xsl:value-of select="DonGia * SoLuong"/>
                 </td>
               </tr>
             </xsl:for-each>
