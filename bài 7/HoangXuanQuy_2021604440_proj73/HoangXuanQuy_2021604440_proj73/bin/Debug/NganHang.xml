@@ -1,0 +1,23 @@
+<nganhang>
+  <taikhoan>
+    <sotaikhoan>tk001</sotaikhoan>
+    <tentaikhoan>Nguyen Thi Minh Anh</tentaikhoan>
+    <diachi>Ha noi</diachi>
+    <dienthoai>098734544</dienthoai>
+    <sotien>98734544</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>tk002</sotaikhoan>
+    <tentaikhoan>Ủa alo</tentaikhoan>
+    <diachi>Ninh bình</diachi>
+    <dienthoai>7900909</dienthoai>
+    <sotien>809909</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>1</sotaikhoan>
+    <tentaikhoan>1ghghghgh</tentaikhoan>
+    <diachi>1</diachi>
+    <dienthoai>1</dienthoai>
+    <sotien>1</sotien>
+  </taikhoan>
+</nganhang>

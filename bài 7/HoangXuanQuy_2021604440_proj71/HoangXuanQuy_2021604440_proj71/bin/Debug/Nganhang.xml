@@ -1,0 +1,16 @@
+<nganhang>
+  <taikhoan>
+    <sotaikhoan>tk001</sotaikhoan>
+    <tentaikhoan>Nguyen Thi Minh Anh</tentaikhoan>
+    <diachi>Ha noi</diachi>
+    <dienthoai>098734544</dienthoai>
+    <sotien>098734544</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>1</sotaikhoan>
+    <tentaikhoan>2</tentaikhoan>
+    <diachi>2</diachi>
+    <dienthoai>2</dienthoai>
+    <sotien>2</sotien>
+  </taikhoan>
+</nganhang>

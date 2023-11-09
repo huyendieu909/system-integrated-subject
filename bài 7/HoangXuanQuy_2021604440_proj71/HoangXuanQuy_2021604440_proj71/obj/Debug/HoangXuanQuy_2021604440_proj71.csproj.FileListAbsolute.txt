@@ -1,0 +1,26 @@
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\bin\Debug\HoangXuanQuy_2021604440_proj71.exe.config
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\bin\Debug\HoangXuanQuy_2021604440_proj71.exe
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\bin\Debug\HoangXuanQuy_2021604440_proj71.pdb
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\bin\Debug\Newtonsoft.Json.dll
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\bin\Debug\Newtonsoft.Json.xml
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.csproj.AssemblyReference.cache
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.Form1.resources
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.Properties.Resources.resources
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.csproj.GenerateResource.cache
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.csproj.CoreCompileInputs.cache
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.csproj.CopyComplete
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.exe
+E:\project\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.pdb
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\bin\Debug\HoangXuanQuy_2021604440_proj71.exe.config
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\bin\Debug\HoangXuanQuy_2021604440_proj71.exe
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\bin\Debug\HoangXuanQuy_2021604440_proj71.pdb
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\bin\Debug\Newtonsoft.Json.dll
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\bin\Debug\Newtonsoft.Json.xml
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.csproj.AssemblyReference.cache
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.Form1.resources
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.Properties.Resources.resources
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.csproj.GenerateResource.cache
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.csproj.CoreCompileInputs.cache
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.csproj.CopyComplete
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.exe
+E:\k5\tích hợp hệ thống pm\bài 7\HoangXuanQuy_2021604440_proj71\HoangXuanQuy_2021604440_proj71\obj\Debug\HoangXuanQuy_2021604440_proj71.pdb
