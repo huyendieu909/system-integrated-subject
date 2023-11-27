@@ -158,3 +158,7 @@ E:\k5\tích hợp hệ thống pm\bài 9\Bai9-Quy440-P1\Bai9-Quy440-P1\obj\Debug
 E:\k5\tích hợp hệ thống pm\bài 9\Bai9-Quy440-P1\Bai9-Quy440-P1\obj\Debug\Bai9-Quy440-P1.csproj.CopyComplete
 E:\k5\tích hợp hệ thống pm\bài 9\Bai9-Quy440-P1\Bai9-Quy440-P1\obj\Debug\Bai9-Quy440-P1.dll
 E:\k5\tích hợp hệ thống pm\bài 9\Bai9-Quy440-P1\Bai9-Quy440-P1\obj\Debug\Bai9-Quy440-P1.pdb
+E:\k5\tích hợp hệ thống pm\bài 9\Bai9-Quy440-P1\Bai9-Quy440-P1\bin\EntityFramework.dll
+E:\k5\tích hợp hệ thống pm\bài 9\Bai9-Quy440-P1\Bai9-Quy440-P1\bin\EntityFramework.SqlServer.dll
+E:\k5\tích hợp hệ thống pm\bài 9\Bai9-Quy440-P1\Bai9-Quy440-P1\bin\EntityFramework.xml
+E:\k5\tích hợp hệ thống pm\bài 9\Bai9-Quy440-P1\Bai9-Quy440-P1\bin\EntityFramework.SqlServer.xml

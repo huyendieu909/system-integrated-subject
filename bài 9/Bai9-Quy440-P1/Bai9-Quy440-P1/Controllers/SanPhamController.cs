@@ -12,7 +12,8 @@ namespace Bai9_Quy440_P1.Controllers
         [HttpGet]
         public List<SanPham> LayToanBoSanPham()
         {
-            CSDLQLBanHangDataContext db = new CSDLQLBanHangDataContext();
+            //CSDLQLBanHangDataContext db = new CSDLQLBanHangDataContext("Data Source=HUYEN-DIEU-ACER;Initial Catalog=CSDLQLBanHang;Integrated Security=True");
+            CSDLQLBanHangContext db = new CSDLQLBanHangContext();
             List<SanPham> lsp = db.SanPhams.ToList();
             foreach (SanPham p in lsp)
             {
@@ -27,10 +28,11 @@ namespace Bai9_Quy440_P1.Controllers
         [HttpGet]
         public SanPham LaySanPhamTheoID(string id)
         {
-            CSDLQLBanHangDataContext db = new CSDLQLBanHangDataContext();
+            CSDLQLBanHangDataContext db = new CSDLQLBanHangDataContext("Data Source=HUYEN-DIEU-ACER;Initial Catalog=CSDLQLBanHang;Integrated Security=True");
             SanPham sp = db.SanPhams.First(x => x.Ma.Equals(id));
             if (sp != null) {sp.DanhMuc = null;}
             return sp;
         }
+
     }
 }

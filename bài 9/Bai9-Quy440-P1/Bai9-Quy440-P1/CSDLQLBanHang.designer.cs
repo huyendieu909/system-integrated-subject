@@ -20,9 +20,9 @@ namespace Bai9_Quy440_P1
 	using System.Linq.Expressions;
 	using System.ComponentModel;
 	using System;
-	
-	
-	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="CSDLQLBanHang")]
+    using System.ComponentModel.DataAnnotations;
+
+    [global::System.Data.Linq.Mapping.DatabaseAttribute(Name="CSDLQLBanHang")]
 	public partial class CSDLQLBanHangDataContext : System.Data.Linq.DataContext
 	{
 		
@@ -62,10 +62,10 @@ namespace Bai9_Quy440_P1
 			OnCreated();
 		}
 
-		public CSDLQLBanHangDataContext() : base(global::System.Configuration.ConfigurationManager.ConnectionStrings["CSDLQLBanHangConnectionString"].ConnectionString, mappingSource)
-		{
-			OnCreated();
-		}
+		//public CSDLQLBanHangDataContext() : base(global::System.Configuration.ConfigurationManager.ConnectionStrings["CSDLQLBanHangConnectionString"].ConnectionString, mappingSource)
+		//{
+		//	OnCreated();
+		//}
 		
 		public System.Data.Linq.Table<DanhMuc> DanhMucs
 		{
@@ -113,6 +113,7 @@ namespace Bai9_Quy440_P1
 		}
 		
 		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaDanhMuc", DbType="VarChar(50) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		[Key]
 		public string MaDanhMuc
 		{
 			get
@@ -235,6 +236,7 @@ namespace Bai9_Quy440_P1
 		}
 		
 		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Ma", DbType="VarChar(50) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		[Key]
 		public string Ma
 		{
 			get
