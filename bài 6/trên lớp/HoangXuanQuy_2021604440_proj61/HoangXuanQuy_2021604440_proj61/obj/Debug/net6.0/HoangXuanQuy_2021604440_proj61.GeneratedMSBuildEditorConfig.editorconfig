@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HoangXuanQuy_2021604440_proj61
-build_property.ProjectDir = E:\project\HoangXuanQuy_2021604440_proj61\HoangXuanQuy_2021604440_proj61\
+build_property.ProjectDir = E:\k5\tích hợp hệ thống pm\bài 6\trên lớp\HoangXuanQuy_2021604440_proj61\HoangXuanQuy_2021604440_proj61\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

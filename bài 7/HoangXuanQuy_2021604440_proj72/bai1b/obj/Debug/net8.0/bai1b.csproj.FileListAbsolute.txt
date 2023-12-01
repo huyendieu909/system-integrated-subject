@@ -1,0 +1,17 @@
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\obj\Debug\net8.0\bai1b.csproj.AssemblyReference.cache
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\obj\Debug\net8.0\bai1b.GeneratedMSBuildEditorConfig.editorconfig
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\obj\Debug\net8.0\bai1b.AssemblyInfoInputs.cache
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\obj\Debug\net8.0\bai1b.AssemblyInfo.cs
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\obj\Debug\net8.0\bai1b.csproj.CoreCompileInputs.cache
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\bin\Debug\net8.0\bai1b.exe
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\bin\Debug\net8.0\bai1b.deps.json
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\bin\Debug\net8.0\bai1b.runtimeconfig.json
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\bin\Debug\net8.0\bai1b.dll
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\bin\Debug\net8.0\bai1b.pdb
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\obj\Debug\net8.0\bai1b.csproj.CopyComplete
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\obj\Debug\net8.0\bai1b.dll
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\obj\Debug\net8.0\refint\bai1b.dll
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\obj\Debug\net8.0\bai1b.pdb
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\obj\Debug\net8.0\bai1b.genruntimeconfig.cache
+E:\project\HoangXuanQuy_2021604440_proj72\bai1b\obj\Debug\net8.0\ref\bai1b.dll
