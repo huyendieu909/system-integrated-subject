@@ -19,6 +19,20 @@ namespace Bai9_Quy440_P1.Controllers
             }
             return Ok("Du lieu da duoc them");
         }
+
+        [HttpPost]
+        [Route("api/sanpham")]        
+        
+        public IHttpActionResult InsertSanPham([FromBody] SanPham sanPham)
+        {
+            using (CSDLQLBanHangContext db = new CSDLQLBanHangContext())
+            {
+                db.SanPhams.Add(sanPham);
+                db.SaveChanges();
+            }
+            return Ok("Du lieu da duoc them.");
+        }
+
         [HttpPut]
         public IHttpActionResult Update([FromBody] DanhMuc danhMuc)
         {
@@ -57,6 +71,16 @@ namespace Bai9_Quy440_P1.Controllers
             {
                 List<DanhMuc> dm = db.DanhMucs.ToList();
                 return dm;
+            }
+        }
+        [HttpGet]
+        [Route("api/sanpham")]
+        public List<SanPham> LayHetSanPham()
+        {
+            using (CSDLQLBanHangContext db = new CSDLQLBanHangContext())
+            {
+                List<SanPham> sp = db.SanPhams.ToList();
+                return sp;
             }
         }
     }
