@@ -9,7 +9,7 @@ namespace Bai10_Quy_440
 {
     public class QLLuongContext : DbContext
     {
-        public QLLuongContext() : base("Data Source=HUYEN-DIEU-ACER;Initial Catalog=QLLuong;Integrated Security=True") { }
+        public QLLuongContext() : base("Data Source=HUYEN-DIEU-ACER;Initial Catalog=QLLuong;Integrated Security=True;Encrypt=False") { }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();

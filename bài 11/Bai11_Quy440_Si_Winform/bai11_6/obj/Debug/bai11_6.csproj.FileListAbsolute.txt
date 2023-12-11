@@ -1,0 +1,10 @@
+E:\project\Bai11_Quy440_Si_Winform\bai11_6\bin\Debug\bai11_6.exe.config
+E:\project\Bai11_Quy440_Si_Winform\bai11_6\bin\Debug\bai11_6.exe
+E:\project\Bai11_Quy440_Si_Winform\bai11_6\bin\Debug\bai11_6.pdb
+E:\project\Bai11_Quy440_Si_Winform\bai11_6\obj\Debug\bai11_6.csproj.AssemblyReference.cache
+E:\project\Bai11_Quy440_Si_Winform\bai11_6\obj\Debug\bai11_6.bai11_6.resources
+E:\project\Bai11_Quy440_Si_Winform\bai11_6\obj\Debug\bai11_6.Properties.Resources.resources
+E:\project\Bai11_Quy440_Si_Winform\bai11_6\obj\Debug\bai11_6.csproj.GenerateResource.cache
+E:\project\Bai11_Quy440_Si_Winform\bai11_6\obj\Debug\bai11_6.csproj.CoreCompileInputs.cache
+E:\project\Bai11_Quy440_Si_Winform\bai11_6\obj\Debug\bai11_6.exe
+E:\project\Bai11_Quy440_Si_Winform\bai11_6\obj\Debug\bai11_6.pdb
