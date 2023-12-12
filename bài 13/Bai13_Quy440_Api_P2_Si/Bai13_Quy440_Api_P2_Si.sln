@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai13_Quy440_Api_P2_Si", "Bai13_Quy440_Api_P2_Si\Bai13_Quy440_Api_P2_Si.csproj", "{FD4F34AB-490F-4A47-BE06-B8299A60F4C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD4F34AB-490F-4A47-BE06-B8299A60F4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4F34AB-490F-4A47-BE06-B8299A60F4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4F34AB-490F-4A47-BE06-B8299A60F4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4F34AB-490F-4A47-BE06-B8299A60F4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97B5410C-1940-46AB-A857-37F8BB5A6C99}
+	EndGlobalSection
+EndGlobal

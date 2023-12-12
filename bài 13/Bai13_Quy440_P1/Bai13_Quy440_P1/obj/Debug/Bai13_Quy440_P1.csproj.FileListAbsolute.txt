@@ -1,0 +1,10 @@
+E:\project\Bai13_Quy440_P1\Bai13_Quy440_P1\bin\Debug\Bai13_Quy440_P1.exe.config
+E:\project\Bai13_Quy440_P1\Bai13_Quy440_P1\bin\Debug\Bai13_Quy440_P1.exe
+E:\project\Bai13_Quy440_P1\Bai13_Quy440_P1\bin\Debug\Bai13_Quy440_P1.pdb
+E:\project\Bai13_Quy440_P1\Bai13_Quy440_P1\obj\Debug\Bai13_Quy440_P1.csproj.AssemblyReference.cache
+E:\project\Bai13_Quy440_P1\Bai13_Quy440_P1\obj\Debug\Bai13_Quy440_P1.Form1.resources
+E:\project\Bai13_Quy440_P1\Bai13_Quy440_P1\obj\Debug\Bai13_Quy440_P1.Properties.Resources.resources
+E:\project\Bai13_Quy440_P1\Bai13_Quy440_P1\obj\Debug\Bai13_Quy440_P1.csproj.GenerateResource.cache
+E:\project\Bai13_Quy440_P1\Bai13_Quy440_P1\obj\Debug\Bai13_Quy440_P1.csproj.CoreCompileInputs.cache
+E:\project\Bai13_Quy440_P1\Bai13_Quy440_P1\obj\Debug\Bai13_Quy440_P1.exe
+E:\project\Bai13_Quy440_P1\Bai13_Quy440_P1\obj\Debug\Bai13_Quy440_P1.pdb
